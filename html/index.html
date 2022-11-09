@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table style="border: 0;">
+        <tbody>
+            <tr>
+                <th><label for="n1">Primer número</label></th>
+                <th><input type="number" name="n1" id="n1"></th>
+            </tr>
+            <tr>
+                <th><label for="n2">Segundo número</label></th>
+                <th><input type="number" name="n2" id="n2"></th>
+                
+            </tr>
+            <tr>
+                <th><label for="result">Resultado: </label></th>
+                <th><span id="result">0</span></th>
+            </tr>
+            <tr>
+                <th><button onclick="Operar('+')">Sumar</button></th>
+                <th><button onclick="Operar('-')">Restar</button></th>
+                <th><button onclick="Operar('*')">Multiplicar</button></th>
+                <th><button onclick="Operar('/')">Dividir</button></th>
+            </tr>
+        </tbody>
+    </table>
+    
+    <script>
+        function Operar(op){
+            var n1 = parseFloat(document.getElementById("n1").value);
+            var n2 = parseFloat(document.getElementById("n2").value);
+            var r = 
+                    op == '+'? n1+n2 : 
+                    op == '-'? n2-n2 :
+                    op == '*'? n1*n2 :
+                    op == '/'?n1/n2 :
+                    0;
+                    console.log(document.getElementById("n1"));
+            document.getElementById("result").innerHTML = r;
+
+        }
+    </script>
+</body>
+</html>

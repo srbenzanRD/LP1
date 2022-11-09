@@ -1,0 +1,15 @@
+C:\lp1\CajerosAutomaticos\bin\Debug\net6.0\CajerosAutomaticos.exe
+C:\lp1\CajerosAutomaticos\bin\Debug\net6.0\CajerosAutomaticos.deps.json
+C:\lp1\CajerosAutomaticos\bin\Debug\net6.0\CajerosAutomaticos.runtimeconfig.json
+C:\lp1\CajerosAutomaticos\bin\Debug\net6.0\CajerosAutomaticos.dll
+C:\lp1\CajerosAutomaticos\bin\Debug\net6.0\CajerosAutomaticos.pdb
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.csproj.AssemblyReference.cache
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.GeneratedMSBuildEditorConfig.editorconfig
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.AssemblyInfoInputs.cache
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.AssemblyInfo.cs
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.csproj.CoreCompileInputs.cache
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.dll
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\refint\CajerosAutomaticos.dll
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.pdb
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\CajerosAutomaticos.genruntimeconfig.cache
+C:\lp1\CajerosAutomaticos\obj\Debug\net6.0\ref\CajerosAutomaticos.dll
