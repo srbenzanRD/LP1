@@ -1,15 +1,15 @@
 #include <stdio.h>
 //www.github.com/srbenzanRD/LP1
-int P = 3;
-int N[5][10],c,e;     const int PP = 0, SP = 1, PR = 2, EF = 3, C = 4;
+int P = 2;
+int N[10][5],c,e;     const int PP = 0, SP = 1, PR = 2, EF = 3, C = 4;
 int Max(){
-    int M = N[C][0];
-    for(e=0; e<P;e++) if(M<N[C][e]) M = N[C][e];
+    int M = N[0][C];
+    for(e=0; e<P;e++) if(M<N[e][C]) M = N[e][C];
     return M;
 }
 int Min(){
-    int M = N[C][0];
-    for(e=0; e<P;e++) if(M>N[C][e]) M = N[C][e];
+    int M = N[0][C];
+    for(e=0; e<P;e++) if(M>N[e][C]) M = N[e][C];
     return M;
 }
 void main() {
@@ -19,10 +19,10 @@ void main() {
                 case 2: { printf("\nEstudiante #%d PR: ",e+1);} break;
                 case 3: { printf("\nEstudiante #%d EF: ",e+1);} break;
                 case 4: {
-                    N[C][e] = N[PP][e] + N[SP][e] + N[PR][e] + N[EF][e];
+                    N[e][C] = N[e][PP] + N[e][SP] + N[e][PR] + N[e][EF];
                 } break;
            }
-           if(c!=C) scanf("%d",N[c][e]);
+           if(c!=C) scanf("%d",N[e][c]);
         }
     printf("\nMas alta: %d",Max());
     printf("\nMas baja: %d",Min());
